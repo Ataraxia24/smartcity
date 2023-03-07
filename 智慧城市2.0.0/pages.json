@@ -1,0 +1,305 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录页面"
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册页面"
+            }
+            
+        }
+        ,{
+            "path" : "pages/moreService/moreService",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部服务"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chineseManufacture/chineseManufacture",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "中国制造",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dataAnalysis/dataAnalysis",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "数据分析",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/findjob/findjob",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找工作",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/user/modifypwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/findjob/job_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "招聘详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/findjob/resume/addResume",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增简历",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/findjob/resume/resumeDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "简历详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/government/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "政府服务热线",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/government/wishpage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "祈求列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/government/wishpageList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "诉求详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/government/addwish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新建诉求页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/park",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停哪儿",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/park_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/park_record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/my/myVehicle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的车辆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/my/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chineseManufacture/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "展会活动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chineseManufacture/recruit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "厂商招聘",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chineseManufacture/enter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "厂商入驻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/startup/startup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置ip端口",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/startup/index",
+            "style" :                                                                                    
+            {
+                "app-plus": {
+                	"titleNView": false
+                }
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "",
+		"position": "bottom",
+		"list": [
+			{
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home_act.png",
+				"text": "首页",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "static/icons/all.png",
+				"selectedIconPath": "static/icons/all_act.png",
+				"text": "全部服务",
+				"pagePath": "pages/moreService/moreService"
+			},
+			{
+				//暂无图片
+				"iconPath": "static/icons/lg_lock.png",
+				"selectedIconPath": "static/icons/locked.png",
+				"text": "中国制造",
+				"pagePath": "pages/chineseManufacture/chineseManufacture"
+			},
+			{
+				//暂无图片
+				"iconPath": "static/icons/news.png",
+				"selectedIconPath": "static/icons/news_act.png",
+				"text": "数据分析",
+				"pagePath": "pages/dataAnalysis/dataAnalysis"
+			},
+			{
+				"iconPath": "static/icons/user.png",
+				"selectedIconPath": "static/icons/user_act.png",
+				"text": "个人中心",
+				"pagePath": "pages/user/user"
+			}
+		]
+	}
+}
